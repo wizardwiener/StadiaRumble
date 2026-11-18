@@ -1,0 +1,4 @@
+aisk/WinStadia
+https://github.com/aisk/WinStadia
+Commit: 2778707f873ca7111586579b2de8bf418b6fe829
+License: GPL-3.0
