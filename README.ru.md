@@ -6,6 +6,7 @@
 [![Лицензия: GPL-3.0](https://img.shields.io/badge/лицензия-GPL--3.0-2EA44F?style=flat-square)](./LICENSE)
 
 > **Язык:** [English](./README.md) | [Українська](./README.uk.md) | Русский
+<img width="1251" height="762" alt="image" src="https://github.com/user-attachments/assets/567c34c4-522c-4eca-aeb5-f2aeefda4ec9" />
 
 UMDF2 HID-минидрайвер для Windows 10/11 x64 и настольное приложение **Stadia Rumble Studio** для **Google Stadia Controller** (Bluetooth LE и USB). Определяет геймпад в играх как стандартный **Xbox Wireless Controller (XInput)** с полноценной вибрацией обоих моторов, автономными драйверными профилями (`0xE2`, `0xE3`) и телеметрией BLE в реальном времени (`0xE1`).
 
