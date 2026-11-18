@@ -6,6 +6,7 @@
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-2EA44F?style=flat-square)](./LICENSE)
 
 > **Language:** English | [Українська](./README.uk.md) | [Русский](./README.ru.md)
+<img width="1249" height="782" alt="image" src="https://github.com/user-attachments/assets/e11cc885-8b38-49bb-9736-75bb2b1ac34f" />
 
 Windows 10/11 x64 **UMDF2 HID minidriver** and companion control studio (**Stadia Rumble Studio**) for the **Google Stadia Controller** over **Bluetooth LE** and **USB**. It exposes the controller to games as a standard **Xbox Wireless Controller (XInput)** with full dual-motor vibration support, persistent driver-level profiles (`0xE2`), autonomous driver macros (`0xE3`), and real-time BLE/rumble telemetry (`0xE1`).
 
