@@ -1,0 +1,11 @@
+Stadia Rumble — Windows 10/11 UMDF2 Driver & Studio Companion
+Release: 1.0.15 (GitHub-Ready)
+Upstream Base: https://github.com/aisk/WinStadia (GPL-3.0)
+Verified OS Builds: Windows 11/10 x64 26200, 26220, 26300 (26H2)
+
+Key Additions Over Upstream:
+- Dedicated UMDF2 rumble thread with BLE pacing (0xE2) & non-blocking 3-reader HID input queue
+- Feature Report 0xE1 telemetry (BLE write latency ms, write/fail counters, Windows BLE Battery fallback)
+- Feature Report 0xE2 persistent driver profile (Strong/Weak gain %, stick/trigger deadzones, Hair-Trigger, swap/invert, BLE cadence, hardware Assistant+button Turbo 5-25 Hz)
+- Feature Report 0xE3 + native HID Keyboard (0x05) & Consumer Control (0x06) Top-Level Collections inside winstadia.dll for autonomous Assistant, Capture, Assistant+D-Pad media/volume, and Custom Hotkey macros persisted in PnP registry (StadiaMacroSettings) with priority zero-delay report ordering, rapid double-tap recovery, diagonal D-Pad suppression, clean D0Exit key flush, and zero background app required
+- Native Stadia Rumble Studio (app/StadiaRumbleApp.cs) with web-studio dark aesthetic, custom Stadia wave icon, 6 tabs, 4-language UI (UK/EN/DE/RU), interactive controller canvas, Col01 TLC filtering via HidP_GetCaps, lossless HidUsageToVk hotkey sync, ProcessCmdKey capture, thread-safe haptic timer, single-instance wake, driver-level 0xE2/0xE3 configurators, and active continuous-motion spike detection

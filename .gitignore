@@ -1,0 +1,28 @@
+# Temporary portable compiler & WDK caches (downloaded automatically by driver/build.ps1)
+.toolchain/
+.wdk/
+
+# Driver build outputs & logs
+driver/out/
+driver/pkg/
+driver/*.log
+*.obj
+*.pdb
+*.lib
+*.exp
+*.dll
+*.cat
+!driver/winstadia.inf
+
+# Companion app build output & hash stamp (built locally by StadiaRumble.bat)
+app/publish/
+*.exe
+
+# Local diagnostic logs & user IDE files
+StadiaRumble_Log_*.txt
+*.log
+*.user
+*.suo
+.vs/
+bin/
+obj/
